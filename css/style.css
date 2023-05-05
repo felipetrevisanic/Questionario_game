@@ -1,0 +1,276 @@
+@import url(reset.css);
+
+body{
+    background: linear-gradient(to right,black, blueviolet, black);
+    color: white;
+    text-align: center;
+}
+
+/*================================================================================= cabecalho */
+
+.cabecalho{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.titulo{
+    font-size: 5em;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.subtitulo{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.link{
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 5rem;
+}
+
+.div__link{
+    margin: 2rem;
+}
+.div__titulo{
+    margin-left: 15rem;
+}
+
+
+/* =================================================================================pagina principal */
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*================================================================================= telas */
+
+.tela{
+    background-color: white;
+    border: none;
+    border-radius: 5rem;
+    padding: 1rem;
+    width: 30rem;
+    box-shadow: 1.5px 5px black;
+    margin-top: 2rem;
+    color: blueviolet;
+}
+
+.descricao{
+    color: blueviolet;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.tela__teste{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.listagem_testes a{
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 70%;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+
+}
+
+/* =================================================================================lista */
+
+.lista__link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.lista__item{
+    background-color: blueviolet;
+    width: 70%;
+    border: none;
+    border-radius: 5rem;
+    margin: 1rem auto 0;
+    padding: 0.5rem;
+}
+
+/* ================================================================================= formulario */
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: initial;
+    width: 70%;
+    margin: 0 auto 1rem;
+}
+
+.formulario label{
+    color: blueviolet;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: initial;
+    margin-bottom: 0.5rem;
+}
+
+.formulario input{
+    margin-bottom: 1rem;
+    border: 1px solid blueviolet;
+    border-radius: 5rem;
+    padding: 0.75em;
+}
+
+.formulario .btn__enviar{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 30%;
+    margin: 0 70%;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* =================================================================================apresenta resultado */
+
+.apresenta__resultado h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.apresenta__resultado p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: aqua;
+}
+
+.div__resultado{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 70%;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+   margin: 0 auto;
+}
+
+.div__resultado p {
+    margin-right: 1rem;
+    
+}
+
+.div__resultado h2 {
+    font-size: 1.25rem;
+    margin-right: 1rem;
+}
+
+/* =================================================================================questionario */
+.questionario{
+    display: flex;
+    justify-content: space-around
+}
+
+.tela__questionario{
+    width: 70%;
+}
+
+.div__respostas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.div__resposta{
+    display: flex;
+    justify-content: center;
+}
+
+.btn__resposta{
+    color: white;
+    background-color: blueviolet;
+    width: 2.5rem;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5rem;
+    margin: 1rem 2rem;
+}
+
+.descricao__pergunta{
+    margin-bottom: 1.5rem;
+}
+
+.descricao__resposta{
+    color: black;
+    font-size: 1rem;
+}
+
+.btn__pergunta span{
+    background-color: blueviolet;
+    color: white;
+    width: 2.5rem;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5rem;
+    margin: 2rem 1rem;
+}
+
+.btn__pergunta button{
+    padding: 0;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+/* =================================================================================cadastra pergunta */
+
+.cadastro__perguntas {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.cadastro__perguntas input{
+    margin-bottom: 1rem;
+    border-radius: 5rem;
+    border: 1px solid blueviolet;
+    box-shadow: 2px 2px black;
+}
+
+
+.cadastro__opcao{
+    display: flex;
+    justify-content: center;
+}
+
+.btn__opcao{
+    width: 50%;
+}
+
+.div__resultado{
+    margin-bottom: 0.7rem;
+}
+
+/* =================================================================================rodape */
+.rodape{
+    margin-top: 10rem;
+}

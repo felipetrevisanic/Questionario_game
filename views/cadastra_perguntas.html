@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <title>Cadastra perguntas</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="div__titulo">
+        <h1 class="titulo">TestTester</h1>
+        <span class="subtitulo">bem vindo ao melhor site de questionarios</span>
+        </div>
+    
+        <div class='div__link'>
+            <a href="../login" class="link">login</a>
+            <a href="../" class="link">home</a>
+        </div>
+    </header>
+
+    <main class="div__resposta">
+
+        <section class="tela ">
+           <h1 class="titulo"></h1>
+           <div class="cadastro__perguntas">
+               <label for="pergunta">Pergunta:</label>
+               <input type="text" name="pergunta" id="pergunta"><br>
+               <label for="input_a">Opção A:</label>
+               <input type="text" id="input_a"><br>
+               <label for="input_b">Opção B:</label>
+               <input type="text" id="input_b"><br>
+               <label for="input_c">Opção C:</label>
+               <input type="text" id="input_c"><br>
+               <label for="input_d">Opção D:</label>
+               <input type="text" id="input_d"><br>
+               <label for="input_e">Opção E:</label>
+               <input type="text" id="input_e"><br>
+           </div>
+
+           <div class="cadastro__opcao">
+               <label for="">insira a opcao correta</label>
+               <div>
+                   <input type="radio" name="opcao_correta" class="opcoes" id="a" checked>
+                   <label for="opcao_a">A</label>
+               </div>
+               <div>
+                   <input type="radio" name="opcao_correta" class="opcoes" id="b">
+                   <label for="opcao_b">B</label>
+               </div>
+               <div>
+                   <input type="radio" name="opcao_correta" class="opcoes" id="c">
+                   <label for="opcao_c">C</label>
+               </div>
+               <div>
+                   <input type="radio" name="opcao_correta" class="opcoes" id="d">
+                   <label for="opcao_d">D</label>
+               </div>
+               <div>
+                   <input type="radio" name="opcao_correta" class="opcoes" id="e">
+                   <label for="opcao_e">E</label>
+               </div>
+            </div>
+            <input type="button" value="Cadastrar" id="btn__enviar" class="btn__resposta btn__opcao">
+       </section>
+    </main>
+</body>
+<script src="../cadastra_perguntas.js"></script>
+</html>
